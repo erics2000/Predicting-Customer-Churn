@@ -1,17 +1,17 @@
-# Machine Learning and Data Analysis Project
+# Customer Churn Prediction Project
 
-This project is focused on data analysis and machine learning model development using Python. The project includes steps for data preprocessing, model training, evaluation, and the handling of imbalanced datasets.
+The main objective of the project is to analyze the account information of bank customers, including factors like account age, payment method, subscription method, and more, in order to predict whether a customer will leave the bank or not. 
 
 ## Project Structure
 
-- **Package Installation and Setup**: The project starts by installing necessary packages such as `sqlalchemy`, `pandasql`, and others. It ensures the correct environment is set up for data manipulation and model training.
+- **Package Installation and Setup**: The project starts by installing necessary packages: `sqlalchemy`, `pandasql`, and others.
   
-- **Data Preprocessing**: The notebook includes preprocessing steps to handle categorical data, feature scaling, and train-test splits using `scikit-learn`.
+- **Data Preprocessing**: Preprocessing steps are made to handle categorical data and feature scaling.
 
 - **Machine Learning Models**:
-  - **Logistic Regression**: Used as a baseline model for classification.
-  - **Random Forest Classifier**: Implemented for further model improvement.
-  - **Deep Learning with PyTorch**: Neural network models are built using `torch` for complex datasets.
+  - **Logistic Regression**
+  - **Random Forest Classifier**
+  - **Deep Learning with PyTorch**
 
 - **Evaluation Metrics**: The models are evaluated using multiple performance metrics, including:
   - Accuracy
